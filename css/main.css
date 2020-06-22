@@ -269,17 +269,22 @@ textarea {
   height: 183px;
   flex-direction: row;
   justify-self: center;
+  float: left;
+  margin:0 30px 0 0;
 }
 
 
 /* Custom CSS */
+
 .box-left {
   width: 154px;
   background-color: #ddfaff;
   align-items: center;
   justify-content: center;
   display: flex;
+  box-sizing: border-box;
 }
+
 
 .box-right {
   width: 386px;
@@ -288,14 +293,33 @@ textarea {
   font-weight: 400;
   color: #58595b;
   line-height: 1.5;
+  
 }
 
+.box2 {
+  display: flex;
+  border: 1px solid mistyrose;
+  height: 183px;
+  flex-direction: row;
+  justify-self: center;
+  float: right;
+
+}
 .boxL2 { 
   width: 154px;
   height: 183px;
   background-color:#ffd9d9;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
 }
 
 .boxR2 {
   width: 386px;
+  padding: 30px;
+  font-family: Nexa-Book,Arial,sans-serif;
+  color: #58595b;
+  font-weight: 400;
+  padding: 40px;
 }
