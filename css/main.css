@@ -285,6 +285,16 @@ textarea {
   box-sizing: border-box;
 }
 
+.circle {
+  background-color:#75cede;
+  height: 74px;
+  width: 74px;
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
 
 .box-right {
   width: 386px;
@@ -312,9 +322,19 @@ textarea {
   align-items: center;
   justify-content: center;
   display: flex;
-
 }
 
+.circle2{
+  background-color:#e14643;
+  height: 74px;
+  width: 74px;
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+
+}
 .boxR2 {
   width: 386px;
   padding: 30px;
